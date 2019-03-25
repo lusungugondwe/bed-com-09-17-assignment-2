@@ -1,0 +1,72 @@
+body{
+	padding: 15px;	
+	background-color: darkgray
+	
+}
+img{
+	width: 30%;
+	border-radius: 1em;
+}
+
+h2{
+	text-align: center;
+	border-radius: 1em;
+	color: white;
+}
+.project a{
+	
+	
+	color: white;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.project{
+	border-radius: 1em;
+    background-color: blue;
+
+    padding: 10px;
+    color: white;
+}
+.works{
+	border-radius: 1em;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+.works a{
+	
+	
+	color: white;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+	
+}
+input {
+	width: 100%;
+   color: #f1092f;
+   border-radius: 1em;
+   padding: 1em;
+   box-sizing: border-box;
+   
+}
+
+   
+
+p textarea{
+	width: 100%;
+	color: #fa0c2c;
+	border-radius: 1em;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+footer{
+	text-align: center;
+	color: blue;
+	padding: 12px;
+}

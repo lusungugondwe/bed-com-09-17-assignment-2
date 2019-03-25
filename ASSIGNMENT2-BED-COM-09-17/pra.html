@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<header><h2>LUSUNGU GONDWE BED/COM/09/17, SECOND YEAR UNIMA STUDENT<h2></header>
+        
+        <div class="image">
+            <img src="img.JPG">
+        </div>
+
+    <form onsubmit="load()">
+    	<h2>PROJECTS FORM</h2>
+    	<div class="project">
+    	<p class="name">
+    		<label for="name">PROJECT NAME</label><br />
+    		<input type="text" name="pname" id="pname" value="" placeholder="Enter project name..">
+    	</p>
+    	
+    	<p class="pdescription">
+    		<label for="pd">PROJECT DESCRIPTION</label><br />
+    		<textarea id="pdescription" placeholder="Enter project description"></textarea>
+    	</p>
+    	<p class="Date">
+    		<label for="datelines">DATE</label><br />
+    		<input type="date" name="pdateline" id="dateline" value="" >
+    	</p>
+    	
+    	
+    	<p class="buttons">
+    		<input type="submit" name="Submit" id="Submit" value="save" onclick="save()">
+                &nbsp;
+    		<input type="reset" name="Submit" id="clear" value="clear" onclick="clean()">
+            <a href="pra2.html">click here for the the details</a>
+        </p>
+        </div>
+    </form>
+
+    <form onsubmit="work()">
+    	<h2>WORK EXPRIENCE FORM</h2>
+    	<div class="works">
+    	<p class="wname">
+    		<label for="name">INSTITUTION NAME</label><br />
+    		<input type="text" name="wname" id="wname" value="" placeholder="Enter type of work..">
+    	</p>
+    	
+    	<p class="wdescription">
+    		<label for="pd">WORK DESCRIPTION</label><br />
+    		<textarea id="wdescription" placeholder="Enter work description"></textarea>
+    	</p>
+    	<p class="year">
+    		<label for="datelines"> YEAR </><br />
+    		<input type="date" name="wdateline" id="wdateline" value="" >
+    	</p>
+    	
+    	
+    	<p class="buttons">
+    		<input type="submit" name="Submit" id="Submit" value="save" onclick="show()">
+                &nbsp;
+    		<input type="reset" name="Submit" id="clear" value="clear" onclick="cleared()">
+             <a href="pra2.html">click here to see the details</a>
+        </p>
+        </div>
+    </form>
+   
+
+   <footer> LG & copy 2021</footer>
+</body>
+</html>
